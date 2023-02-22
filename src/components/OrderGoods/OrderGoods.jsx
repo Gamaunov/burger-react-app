@@ -1,7 +1,7 @@
 import Count from "../Count/Count";
 import style from "./OrderGoods.module.css";
 
-const OrderGoods = ({item}) => (
+const OrderGoods = ({i, item}) => (
   <li className={style.item}>
     <img className={style.image} src="img/burger_1.jpg" alt={item} />
 
